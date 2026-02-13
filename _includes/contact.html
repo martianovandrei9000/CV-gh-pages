@@ -100,6 +100,15 @@
     </div>
     {% endif %}
 
+    {% if contact.remote %}
+    <div class="contact-item">
+        <i data-feather="globe"></i>
+        <a href="#">
+            {{contact.remote}}
+        </a>
+    </div>
+    {% endif %}
+
     {% if contact.print %}
     <div class="contact-item">
         <i data-feather="printer"></i>
