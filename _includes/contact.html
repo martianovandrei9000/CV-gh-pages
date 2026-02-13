@@ -102,9 +102,36 @@
 
     {% if contact.remote %}
     <div class="contact-item">
-        <i data-feather="globe"></i>
+        <i data-feather="home"></i>
         <a href="#">
             {{contact.remote}}
+        </a>
+    </div>
+    {% endif %}
+
+    {% if contact.office %}
+    <div class="contact-item">
+        <i data-feather="monitor"></i>
+        <a href="#">
+            {{contact.office}}
+        </a>
+    </div>
+    {% endif %}
+
+    {% if contact.hybrid %}
+    <div class="contact-item">
+        <i data-feather="move"></i>
+        <a href="#">
+            {{contact.hybrid}}
+        </a>
+    </div>
+    {% endif %}
+
+    {% if contact.location %}
+    <div class="contact-item">
+        <i data-feather="globe"></i>
+        <a href="#">
+            {{contact.location}}
         </a>
     </div>
     {% endif %}

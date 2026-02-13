@@ -15,6 +15,10 @@ contact:
   timezone: utc-3
 
   remote: true
+  office: false
+  hybrid: false
+  location: "Buenos Aires, Argentina (GMT -3)"
+
 
 hardskills:
   skill:
