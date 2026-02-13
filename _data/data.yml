@@ -14,9 +14,9 @@ contact:
   print: Print this page 
   timezone: utc-3
 
-  remote: true
+  remote: "Remote work only"
   office: false
-  hybrid: false
+  hybrid: "D"
   location: "Buenos Aires, Argentina (GMT -3)"
 
 
