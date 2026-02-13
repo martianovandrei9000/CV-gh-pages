@@ -17,8 +17,11 @@ contact:
   remote: "Remote work only"
   office: false
   hybrid: false
-  location: "Buenos Aires, Argentina (GMT -3)"
+  location: "Buenos Aires, Argentina"
 
+  preferred_work_location: "USA"
+  willing_to_relocate: true
+  can_sign_contract_as_small_business_legal_entity: true
 
 hardskills:
   skill:
