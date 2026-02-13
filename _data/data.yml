@@ -16,7 +16,7 @@ contact:
 
   remote: "Remote work only"
   office: false
-  hybrid: "D"
+  hybrid: false
   location: "Buenos Aires, Argentina (GMT -3)"
 
 
